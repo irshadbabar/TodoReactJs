@@ -1,0 +1,44 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  header {
+    font-size: 120%;
+    font-weight: bold;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  li input {
+    margin-right: 10px
+  }
+  
+  li span[role=link] {
+    font-size: 80%;
+    margin-left: 10px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .actions {
+    margin-top: 1rem;
+  }
+  
+  .actions button {
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  footer {
+    margin-top: 10px;
+  }
+  
+  form button {
+    margin-left: 10px;
+  }
